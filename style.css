@@ -14,8 +14,62 @@
         /* <!-- shoxruhbek start -->
         <!-- shoxruhbek end --> */
 
-        /* <!-- Otabek start -->
-        <!-- Otabek end --> */
+        /* <!-- Otabek start -->*/
+        .Otabek{
+            margin-bottom: 70px;
+        }
+
+        .Otabek__text{
+            margin-left: 40px;
+        }
+
+        .Otabek__text--paragrf{
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 18px;
+        }
+
+        .Otabek__text--paragrff{
+            width: 520px;
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 80px;
+            color: #929A9F;
+        }
+
+        .cards{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .cards__box--text{
+            margin-left: 40px;
+            width: 312px;
+            font-size: 20px;
+            font-weight: 500;
+            color: #263640;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+
+        .cards__box--paragrf{
+            margin-left: 40px;
+            width: 312px;
+            font-size: 16px;
+            font-weight: 500;
+            color: #929A9F;
+            margin-bottom: 25px;
+        }
+
+        .cards__box--paragrff{
+            margin-left: 40px;
+            font-size: 16px;
+            font-weight: 500;
+            color: #FF9900;
+        }
+
+        /*<!-- Otabek end --> */
 
         /* <!-- Muslimbek start -->
         <!-- Muslimbek end --> */
