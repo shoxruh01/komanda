@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,16 +9,73 @@
     list-style: none;
     font-family: "Roboto", sans-serif;
 }
-.container{
+
+.container {
     width: 100%;
     max-width: 1920px;
     margin: auto;
 }
 
-        /* <!-- shoxruhbek start -->
+/* <!-- shoxruhbek start -->
         <!-- shoxruhbek end --> */
 
-        /* <!-- Otabek start -->
+        /* <!-- Otabek start -->*/
+        .Otabek{
+            margin-bottom: 70px;
+        }
+
+        .Otabek__text{
+            margin-left: 40px;
+        }
+
+        .Otabek__text--paragrf{
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 18px;
+        }
+
+        .Otabek__text--paragrff{
+            width: 520px;
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 80px;
+            color: #929A9F;
+        }
+
+        .cards{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .cards__box--text{
+            margin-left: 40px;
+            width: 312px;
+            font-size: 20px;
+            font-weight: 500;
+            color: #263640;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+
+        .cards__box--paragrf{
+            margin-left: 40px;
+            width: 312px;
+            font-size: 16px;
+            font-weight: 500;
+            color: #929A9F;
+            margin-bottom: 25px;
+        }
+
+        .cards__box--paragrff{
+            margin-left: 40px;
+            font-size: 16px;
+            font-weight: 500;
+            color: #FF9900;
+        }
+
+        /*<!-- Otabek end --> */
+/* <!-- Otabek start -->
         <!-- Otabek end --> */
 
         /* /* <!-- Muslimbek start --> */
@@ -102,10 +160,79 @@
         }
      
         /* <!-- Muslimbek end --> */ 
+/* <!-- Muslimbek start -->
+        <!-- Muslimbek end --> */
 
-        /* <!-- Alisaad start -->
-        <!-- Alisaad end --> */
+.none {
+    display: flex;
+    justify-content: center;
+}
+
+.div {
+    width: 1216px;
+    height: 489px;
+    margin-top: 50px;
+}
+
+.forst__logo {
+    font-size: 32px;
+    color: #263640;
+}
+
+.forst__paragref {
+    width: 488px;
+    color: #929A9F;
+    margin-top: 40px;
+    font-size: 16px;
+}
+
+.forst__text {
+    color: #929A9F;
+    font-size: 15px;
+    margin-top: 80px;
+}
+.btn{
+    margin-left: 1124px;
+background-color: #FF9900;
+color: white;
+border: none;
+padding: 5px 2px;
+}
+.div__second {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second__text {
+    width: 361px;
+    height: 212px;
+    margin-top: 25px;
+}
+
+.text__logo {
+    width: 361px;
+    height: 60px;
+    color: #263640;
+    font-size: 20px;
+}
+
+.text__paragref {
+    font-size: 15px;
+    margin-top: 45px;
+}
+
+.text__btn {
+    color: #FF9900;
+    font-size: 16px;
+    border: none;
+    background-color: white;
+    margin-top: 48px;
+}
+
+
+/* <!-- Alisaad end --> */
 
         /* /* <!-- Azizbek bro start --> */
+/* <!-- Azizbek bro start -->
 
         /* <!-- Azizbek bro end --> */
