@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    font-family: "Roboto", sans-serif;
 }
 .container{
     width: 100%;
@@ -17,12 +20,92 @@
         /* <!-- Otabek start -->
         <!-- Otabek end --> */
 
-        /* <!-- Muslimbek start -->
-        <!-- Muslimbek end --> */
+        /* /* <!-- Muslimbek start --> */
+
+        .history-section {
+            width: 1000px;
+            height: 650px;
+            margin: 40px auto;
+            
+            position: relative;
+            overflow: visible; 
+        }
+        
+        .history-section--left {
+            width: 83%;
+            height: 76%;
+            border: 1px solid #000;
+            background-color: rgba(38, 54, 64, 1);
+        }
+        
+        .history-section--left--title {
+            color: rgba(146, 154, 159, 1);
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: 10%;
+            text-transform: uppercase;
+            margin-top: 78px;
+            margin-left: 78px;
+        }
+        
+        .history-section--left--subtitle {
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 44px;
+            margin-left: 78px;
+            margin-top: 24px;
+            color: white;
+        }
+        
+        .history-section--left--info {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 26px;
+            color: white;
+            margin-left: 78px;
+            margin-top: 24px;
+        }
+        
+        .history-section--left--linediv {
+            width: 496px;
+            height: 1px;
+            margin-left: 78px;
+            background-color: white;
+            margin-top: 36px;
+        }
+        
+        .history-section--left--btn {
+            border: none;
+            display: flex;
+            align-items: center;    
+            margin-left: 78px;
+            margin-top: 24px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 28px;
+            color: white;
+        }
+        
+        .history-section--right {
+            position: absolute;
+            top: 55%;
+            right: -80px;        
+            transform: translateY(-50%);
+            width: 488px;
+            height: 650px;
+        
+            background-image: url(./images/Image.png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+     
+        /* <!-- Muslimbek end --> */ 
 
         /* <!-- Alisaad start -->
         <!-- Alisaad end --> */
 
-        /* <!-- Azizbek bro start -->
+        /* /* <!-- Azizbek bro start --> */
 
-        <!-- Azizbek bro end --> */
+        /* <!-- Azizbek bro end --> */
