@@ -1,28 +1,108 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
 }
-.container{
+
+.container {
     width: 100%;
     max-width: 1920px;
     margin: auto;
 }
 
-        /* <!-- shoxruhbek start -->
-        <!-- shoxruhbek end --> */
+/* shoxruhbek start  */
+header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
 
-        /* <!-- Otabek start -->
-        <!-- Otabek end --> */
+.nav__link {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 30px;
+}
 
-        /* <!-- Muslimbek start -->
-        <!-- Muslimbek end --> */
+.nav__links--links {
+    color: orange;
+}
 
-        /* <!-- Alisaad start -->
-        <!-- Alisaad end --> */
+.nav__links--link {
+    color: black;
+}
 
-        /* <!-- Azizbek bro start -->
+.Kontact {
+    padding: 10px 25px;
+    color: white;
+    background-color: orange;
+    border: none;
+    margin-left: 60px;
+    cursor: progress;
+}
 
-        <!-- Azizbek bro end --> */
+/* peyj 2 */
+.quti{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav__imgg {
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+}
+
+.nav__imgg img {
+    width: 350px;   
+    height: 500px;
+    margin-top: 100px
+}
+
+
+.text {
+    width: 490px;
+    height: 400px;
+    padding: 10px 50px;
+    margin-top: 40px;
+}
+.katta__text{
+    margin-top: 30px;
+}
+
+.texts {
+    width: 490px;
+    font-size: 15px;
+    color: #929A9F;
+    margin-top: 30px;
+}
+.kinopka{
+    padding: 10px 20px;
+    background-color: orange;
+    border: none;
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+/* shoxruhbek end   */
+
+/* Otabek start */
+/* Otabek end  */
+
+/* Muslimbek start */
+/* Muslimbek end  */
+
+/* Alisaad start */
+/* Alisaad end  */
+
+/* Azizbek bro start */
+
+/* Azizbek bro end */
